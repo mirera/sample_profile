@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Lobster&display=swap');
+
+*{
+    box-sizing: border-box;
+
+    background-color: #24252a;
+}
+h1{
+    font-family: lobster, sans-serif;
+    font-weight: 700;
+    font-size:xx-large;
+    color: #edf0f1;
+}
+li, a, button {
+    font-family:Kdam Thmor Pro, sans-serif;
+    font-weight:200;
+    font-size: px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px, 20%;
+}
+.text-logo{
+    cursor: pointer;
+    position: relative;
+    left: 20px;
+}
+.nav-items{
+    list-style: none;
+}
+.nav-items li{
+    display: inline-block;
+    padding: 0px, 20px;
+}
+
+.nav-items a {
+
+    cursor: pointer;
+}
+
+button{
+    background-color: rgba(0, 136, 169, 1);
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+li {
+    padding: 20px;
+}
+
+.callAction{
+    position: relative;
+    left: -30px;
+    padding: 14px, 30px;
+}
