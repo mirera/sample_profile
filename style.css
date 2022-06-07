@@ -3,7 +3,6 @@
 
 *{
     box-sizing: border-box;
-
     background-color: #24252a;
 }
 h1{
@@ -35,19 +34,23 @@ header{
 }
 .nav-items li{
     display: inline-block;
-    padding: 0px, 20px;
 }
 
 .nav-items a {
-
     cursor: pointer;
+    
 }
+a:hover {
+    color: greenyellow;
+  }
 
 button{
-    background-color: rgba(0, 136, 169, 1);
+    background-color: greenyellow;
     border:none;
-    border-radius: 50px;
+    border-radius: 10px;
     cursor: pointer;
+    color: #24252a;
+    padding: 10px 10px;
 }
 
 li {
@@ -56,6 +59,75 @@ li {
 
 .callAction{
     position: relative;
-    left: -30px;
-    padding: 14px, 30px;
+    left: -30px;   
+}
+
+.about_sec{
+    display: inline-block;
+    color: #edf0f1;
+    width: 70%;
+    padding: 5%;
+    line-height: 30px;
+    font-family: Kdam Thmor Pro, sans-serif;
+
+}
+.mirera_img img{
+    border: solid wheat;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    position:absolute;
+    left: 70%;
+    top: 15%;
+
+}
+.skills{
+    color: #edf0f1;
+    width: 70%;
+    padding: 5%;
+    line-height: 30px;
+    font-family: sans-serif;
+    margin:10px 10%;
+    border: solid wheat;
+    border-radius: 5px;
+    width: 500px;
+    height: 600px;
+
+}
+.hobbies{
+    color: #edf0f1;
+    width: 70%;
+    padding: 5%;
+    line-height: 30px;
+    font-family: sans-serif;
+    margin:10px 10%;
+    border: solid wheat;
+    border-radius: 5px;
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    left: 40%;
+    top: 60%;
+
+}
+.button-bottom button {
+    background-color: greenyellow;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #24252a;
+    font-weight: 800;
+    padding: 10px 50px;
+    width: auto;
+    margin: 50px 40%;
+
+}
+.footer small{
+    color:#edf0f1
+    
+}
+.footer{
+    margin: 40px;
+    width: auto;
+    text-align: center;
 }
