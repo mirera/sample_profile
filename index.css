@@ -24,10 +24,11 @@ header{
     align-items: center;
     padding: 40px, 20%;
 }
-.text-logo{
+#text-logo{
     cursor: pointer;
     position: relative;
     left: 20px;
+    color: greenyellow;
 }
 .nav-items{
     list-style: none;
